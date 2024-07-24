@@ -372,3 +372,20 @@
     </div>
     <!-- Team End -->
 @endsection
+
+  {{--  <tr>
+                        <td>3</td>
+                        <td>Builders House Levy (one-off)</td>
+                        <td>@if($bh_levy)
+                        <span class="badge badge-success">Paid</span>
+                        @else
+                         <form action="{{route('payment.add')}}" method="GET">
+                             @csrf
+                            <input type="hidden" name="type" value="levy" />
+                            <input type="hidden" name="category" value="14"/>
+                            <button style="border:none;"><span class="badge badge-danger">Not Paid</span></button>
+                        </form>
+
+                        @endif
+                        </td>
+                    </tr>  --}}

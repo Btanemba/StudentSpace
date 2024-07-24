@@ -4,20 +4,17 @@
     <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
         <div class="row align-items-center px-3">
             <div class="col-lg-6 text-center text-lg-left">
-                <h4 class="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
+                <h4 class="text-white mb-4 mt-5 mt-lg-0">Keep Your Study Abroad Dreams Alive</h4>
                 <h1 class="display-3 font-weight-bold text-white">
-                    New Approach to Kids Education
+                    Guide to Studying Abroad
                 </h1>
                 <p class="text-white mb-4">
-                    Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed
-                    sit. Ipsum dolor no justo dolor et, lorem ut dolor erat dolore sed
-                    ipsum at ipsum nonumy amet. Clita lorem dolore sed stet et est justo
-                    dolore.
+                Studying abroad can be a life-changing experience, offering students the opportunity to gain a global perspective, develop new skills, and immerse themselves in a different culture.<br>It can be a transformative experience, providing both personal and professional benefits. By carefully planning and preparing, you can make the most of your time in a new country and return with invaluable experiences and memories.
                 </p>
-                <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
+                <!-- <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a> -->
             </div>
             <div class="col-lg-6 text-center text-lg-right">
-                <img class="img-fluid mt-5" src="img/header.png" alt="" />
+                <img class="img-fluid mt-5" src="img/DanStephenLibrary.jpeg" alt="" />
             </div>
         </div>
     </div>
@@ -32,8 +29,9 @@
                         <i class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"></i>
                         <div class="pl-4">
                             <h4>AUTHENTICATION</h4>
+                            
                             <p class="m-0">
-                                This is the
+                            Authentication is a process used to verify your Document and this is done at the Minstry of Education & Foreign Affairs -> [Nigerians]
                             </p>
                         </div>
                     </div>
@@ -46,7 +44,7 @@
                                 <h4>VERIFICATION</h4>
                             </a>
                             <p class="m-0">
-                                Verification is one of the Most Important stage if you considering studying in Austria.
+                                Verification is one of the Most Important stage if you are considering studying in Austria.
                                 You have to book an appointment with the Embassy.
                             </p>
                         </div>
@@ -58,8 +56,7 @@
                         <div class="pl-4">
                             <h4>LEGALIZATION</h4>
                             <p class="m-0">
-                                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                                lorem amet elitr vero...
+                                This is done after Verification. Legalization is simply making your document usable in Austria.
                             </p>
                         </div>
                     </div>
@@ -70,8 +67,7 @@
                         <div class="pl-4">
                             <h4>ADMISSION APPLICATION</h4>
                             <p class="m-0">
-                                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                                lorem amet elitr vero...
+                            The admission application process can be competitive and demanding, but with careful planning and preparation, you can present a strong application. Research your options, understand the requirements, and ensure all your documents are in order. Good luck with your application journey!
                             </p>
                         </div>
                     </div>
@@ -82,8 +78,7 @@
                         <div class="pl-4">
                             <h4>RESIDENCE PERMIT</h4>
                             <p class="m-0">
-                                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                                lorem amet elitr vero...
+                            Securing a residence permit is essential for studying in Austria or any European country. By understanding the requirements, gathering the necessary documents, and following the correct procedures, you can ensure a smooth application process. Remember to apply well in advance and stay informed about any changes in immigration policies.
                             </p>
                         </div>
                     </div>
@@ -94,8 +89,7 @@
                         <div class="pl-4">
                             <h4>VISA</h4>
                             <p class="m-0">
-                                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                                lorem amet elitr vero...
+                               
                             </p>
                         </div>
                     </div>
@@ -110,193 +104,42 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/about-1.jpg" alt="" />
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/DanStephen.jpeg" alt="" />
                 </div>
                 <div class="col-lg-7">
                     <p class="section-title pr-5">
                         <span class="pr-2">Learn About Us</span>
                     </p>
-                    <h1 class="mb-4">Best School For Your Kids</h1>
+                    <h1 class="mb-4">Best Guide for your Studies in Austria & Europe</h1>
                     <p>
-                        Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
-                        dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo.
-                        Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor
+                       
+Studying in Austria and Europe can be a highly rewarding experience, offering access to high-quality education, diverse cultural experiences, and a wealth of travel opportunities.
                     </p>
-                    <div class="row pt-2 pb-4">
-                        <div class="col-6 col-md-4">
-                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="" />
-                        </div>
-                        <div class="col-6 col-md-8">
-                            <ul class="list-inline m-0">
-                                <li class="py-2 border-top border-bottom">
-                                    <i class="fa fa-check text-primary mr-3"></i>Labore eos amet
-                                    dolor amet diam
-                                </li>
-                                <li class="py-2 border-bottom">
-                                    <i class="fa fa-check text-primary mr-3"></i>Etsea et sit
-                                    dolor amet ipsum
-                                </li>
-                                <li class="py-2 border-bottom">
-                                    <i class="fa fa-check text-primary mr-3"></i>Diam dolor diam
-                                    elitripsum vero.
-                                </li>
-                            </ul>
-                        </div>
+                   
                     </div>
-                    <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a>
+                    <a href="{{ url('about') }}" target="_blank" class="btn btn-primary mt-2 py-2 px-4" >Learn More</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
 
-    <!-- Class Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="text-center pb-2">
-                <p class="section-title px-5">
-                    <span class="px-2">Popular Packages</span>
-                </p>
-                <h1 class="mb-4">Category for all Budget</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mb-5">
-                    <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-1.jpg" alt="" />
-                        <div class="card-body text-center">
-                            <h4 class="card-title">Drawing Class</h4>
-                            <p class="card-text">
-                                Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                                ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent py-4 px-5">
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Age of Kids</strong>
-                                </div>
-                                <div class="col-6 py-1">3 - 6 Years</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Total Seats</strong>
-                                </div>
-                                <div class="col-6 py-1">40 Seats</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Class Time</strong>
-                                </div>
-                                <div class="col-6 py-1">08:00 - 10:00</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Tution Fee</strong>
-                                </div>
-                                <div class="col-6 py-1">$290 / Month</div>
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-2.jpg" alt="" />
-                        <div class="card-body text-center">
-                            <h4 class="card-title">Language Learning</h4>
-                            <p class="card-text">
-                                Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                                ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent py-4 px-5">
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Age of Kids</strong>
-                                </div>
-                                <div class="col-6 py-1">3 - 6 Years</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Total Seats</strong>
-                                </div>
-                                <div class="col-6 py-1">40 Seats</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Class Time</strong>
-                                </div>
-                                <div class="col-6 py-1">08:00 - 10:00</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Tution Fee</strong>
-                                </div>
-                                <div class="col-6 py-1">$290 / Month</div>
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-3.jpg" alt="" />
-                        <div class="card-body text-center">
-                            <h4 class="card-title">Basic Science</h4>
-                            <p class="card-text">
-                                Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                                ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent py-4 px-5">
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Age of Kids</strong>
-                                </div>
-                                <div class="col-6 py-1">3 - 6 Years</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Total Seats</strong>
-                                </div>
-                                <div class="col-6 py-1">40 Seats</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Class Time</strong>
-                                </div>
-                                <div class="col-6 py-1">08:00 - 10:00</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6 py-1 text-right border-right">
-                                    <strong>Tution Fee</strong>
-                                </div>
-                                <div class="col-6 py-1">$290 / Month</div>
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Class End -->
 
     <!-- Registration Start -->
-    <div class="container-fluid py-5">
+    <div id="appointment" class="container-fluid py-5" >
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <p class="section-title pr-5">
                         <span class="pr-2">Book Appointment</span>
                     </p>
-                    <h1 class="mb-4">Book Appointment with any Ambassador</h1>
+                    <h1 class="mb-4">Book Appointment with any of the Ambassadors</h1>
                     <p>
-                        Book an appointment if you want to talk with any of our Ambassador. For Questions!
+                        Book an appointment if you want to talk with any of our Ambassador. For Questions!<br>
+                        We will respond with an appropriate date and time.
                     </p>
 
-                    <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a>
+                    <!-- <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a> -->
                 </div>
                 <div class="col-lg-5">
                     <div class="card border-0">
