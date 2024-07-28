@@ -21,7 +21,6 @@ class ContactUs extends Mailable
     public function __construct(array $data)
     {
         $this->data = $data;
-        //
     }
 
     /**
@@ -30,8 +29,8 @@ class ContactUs extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Contact Us',
-            from: new Address('anembaben@gmail.com', 'Acme Media'),
+            subject: $this->data['subject'],
+            from: new Address('anembaben@gmail.com', 'Acme Media')
         );
     }
 

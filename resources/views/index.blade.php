@@ -2,6 +2,17 @@
 
 @section('content')
     <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
+         @if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+
+@if(session('error'))
+    <div class="alert alert-danger">
+        {{ session('error') }}
+    </div>
+@endif
         <div class="row align-items-center px-3">
             <div class="col-lg-6 text-center text-lg-left">
                 <h4 class="text-white mb-4 mt-5 mt-lg-0">Keep Your Study Abroad Dreams Alive</h4>
@@ -29,7 +40,7 @@
                         <i class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"></i>
                         <div class="pl-4">
                             <h4>AUTHENTICATION</h4>
-                            
+
                             <p class="m-0">
                             Authentication is a process used to verify your Document and this is done at the Minstry of Education & Foreign Affairs -> [Nigerians]
                             </p>
@@ -89,7 +100,7 @@
                         <div class="pl-4">
                             <h4>VISA</h4>
                             <p class="m-0">
-                               
+
                             </p>
                         </div>
                     </div>
@@ -112,10 +123,10 @@
                     </p>
                     <h1 class="mb-4">Best Guide for your Studies in Austria & Europe</h1>
                     <p>
-                       
+
 Studying in Austria and Europe can be a highly rewarding experience, offering access to high-quality education, diverse cultural experiences, and a wealth of travel opportunities.
                     </p>
-                   
+
                     </div>
                     <a href="{{ url('about') }}" target="_blank" class="btn btn-primary mt-2 py-2 px-4" >Learn More</a>
                 </div>
@@ -142,6 +153,17 @@ Studying in Austria and Europe can be a highly rewarding experience, offering ac
                     <!-- <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a> -->
                 </div>
                 <div class="col-lg-5">
+                @if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+
+@if(session('error'))
+    <div class="alert alert-danger">
+        {{ session('error') }}
+    </div>
+@endif
                     <div class="card border-0">
                         <div class="card-header bg-secondary text-center p-4">
                             <h1 class="text-white m-0">Book Appointment</h1>
@@ -160,11 +182,11 @@ Studying in Austria and Europe can be a highly rewarding experience, offering ac
                                 <div class="form-group">
                                     <select class="custom-select border-0 px-4" name="ambassador" style="height: 47px">
                                         <option selected>Choose an Ambassador</option>
-                                        <option value="1">Benedict Anemba</option>
-                                        <option value="2">Daniel</option>
-                                        <option value="3">Stephen</option>
-                                        <option value="3">Malachi</option>
-                                        <option value="3">Thessy</option>
+                                        <option value="Benedict Anemba">Benedict Anemba</option>
+                                        <option value="Daniel">Daniel</option>
+                                        <option value="Stephen">Stephen</option>
+                                        <option value="Malachi">Malachi</option>
+                                        <option value="Thessy">Thessy</option>
                                     </select>
                                 </div>
                                 <div>
