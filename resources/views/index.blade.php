@@ -147,17 +147,18 @@ Studying in Austria and Europe can be a highly rewarding experience, offering ac
                             <h1 class="text-white m-0">Book Appointment</h1>
                         </div>
                         <div class="card-body rounded-bottom bg-primary p-5">
-                            <form>
+                            <form action="{{ url('dataInsert') }}" method="post" enctype="multipart/form-data">
+                                @csrf
                                 <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="Your Name"
+                                    <input type="text" class="form-control border-0 p-4" name="name" placeholder="Your Name"
                                         required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control border-0 p-4" placeholder="Your Email"
+                                    <input type="email" class="form-control border-0 p-4" name="email" placeholder="Your Email"
                                         required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select border-0 px-4" style="height: 47px">
+                                    <select class="custom-select border-0 px-4" name="ambassador" style="height: 47px">
                                         <option selected>Choose an Ambassador</option>
                                         <option value="1">Benedict Anemba</option>
                                         <option value="2">Daniel</option>

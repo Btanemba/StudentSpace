@@ -2,6 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\BookingController;
+
+
+
+Route::get('/', [BookingController::class, 'BookingIndex']);
+Route::post('dataInsert',[BookingController::class, 'DataInsert']);
+
 
 Route::get('/', function () {
      return view('index');
