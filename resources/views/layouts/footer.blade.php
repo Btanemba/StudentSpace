@@ -5,7 +5,7 @@
                 <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
                     style="font-size: 40px; line-height: 40px">
                     <i class="flaticon-043-teddy-bear"></i>
-                    <span class="text-white">KidKinder</span>
+                    <span class="text-white">SC</span>
                 </a>
                 <p>
                     Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
@@ -58,37 +58,20 @@
                     <a class="text-white" href="{{ url('/contact') }}"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
-                <form action="">
-                    <div class="form-group">
-                        <input type="text" class="form-control border-0 py-4" placeholder="Your Name"
-                            required="required" />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
-                            required="required" />
-                    </div>
-                    <div>
-                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">
-                            Submit Now
-                        </button>
-                    </div>
-                </form>
-            </div>
+            
         </div>
-        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, 0.2) ;">
+        <!-- <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, 0.2) ;">
             <p class="m-0 text-center text-white">
                 &copy;
                 <a class="text-primary font-weight-bold" href="#">Your Site Name</a>.
                 All Rights Reserved.
 
-                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                
                 Designed by
                 <a class="text-primary font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
                 <br />Distributed By:
                 <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
             </p>
-        </div>
+        </div> -->
     </div>
     <!-- Footer End -->

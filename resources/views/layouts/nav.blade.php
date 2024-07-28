@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
         <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px">
             <i class="flaticon-043-teddy-bear"></i>
-            <span class="text-primary">Student Space</span>
+            <span class="text-primary">Student Corner</span>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -27,14 +27,15 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Universities</a>
                     <div class="dropdown-menu rounded-0 m-0">
-                        <a href="#" class="dropdown-item">Blog Grid</a>
-                        <a href="#" class="dropdown-item">Blog Detail</a>
+                        <a href="https://www.fachhochschulen.ac.at/en/" target="_blank" class="dropdown-item">FH-Austria</a>
+                        <a href="https://www.studienwahl.at/en" target="_blank" class="dropdown-item">All Universities (Austria)</a>
+                        <a href="https://studyinaustria.at/en/study/institutions/private-universities" target="_blank" class="dropdown-item">Private Universities (Austria)</a>
                     </div>
 
                 </div>
                 <a href="{{ url('contact') }}" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary px-4">Book Session</a>
+            <a href="#appointment" class="btn btn-primary px-4">Book Session</a>
         </div>
     </nav>
 </div>

@@ -30,12 +30,14 @@
           <div class="col-lg-7 mb-5">
             <div class="contact-form">
               <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <form action="{{route('contact.send')}}" method="post" name="sentMessage" id="contactForm" novalidate="novalidate" >
+                @csrf
                 <div class="control-group">
                   <input
                     type="text"
                     class="form-control"
                     id="name"
+                    name="name"
                     placeholder="Your Name"
                     required="required"
                     data-validation-required-message="Please enter your name"
@@ -47,20 +49,10 @@
                     type="email"
                     class="form-control"
                     id="email"
+                    name="email"
                     placeholder="Your Email"
                     required="required"
                     data-validation-required-message="Please enter your email"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    placeholder="Subject"
-                    required="required"
-                    data-validation-required-message="Please enter a subject"
                   />
                   <p class="help-block text-danger"></p>
                 </div>
@@ -70,6 +62,7 @@
                     rows="6"
                     id="message"
                     placeholder="Message"
+                    name="message"
                     required="required"
                     data-validation-required-message="Please enter your message"
                   ></textarea>
@@ -81,7 +74,7 @@
                     type="submit"
                     id="sendMessageButton"
                   >
-                    Send Message
+                    Send 
                   </button>
                 </div>
               </form>
@@ -89,10 +82,7 @@
           </div>
           <div class="col-lg-5 mb-5">
             <p>
-              Labore sea amet kasd diam justo amet ut vero justo. Ipsum ut et
-              kasd duo sit, ipsum sea et erat est dolore, magna ipsum et magna
-              elitr. Accusam accusam lorem magna, eos et sed eirmod dolor est
-              eirmod eirmod amet.
+            We'd love to hear from you! Whether you have a question about our services, need assistance, or just want to provide feedback, our team is here to help.
             </p>
             <div class="d-flex">
               <i
@@ -111,10 +101,10 @@
               ></i>
               <div class="pl-3">
                 <h5>Email</h5>
-                <p>info@example.com</p>
+                <p>anembaben@gmail.com</p>
               </div>
             </div>
-            <div class="d-flex">
+            <!-- <div class="d-flex">
               <i
                 class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
                 style="width: 45px; height: 45px"
@@ -122,8 +112,8 @@
               <div class="pl-3">
                 <h5>Phone</h5>
                 <p>+012 345 67890</p>
-              </div>
-            </div>
+              </div> 
+            </div> -->
             <div class="d-flex">
               <i
                 class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
