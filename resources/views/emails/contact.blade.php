@@ -1,14 +1,13 @@
-<x-mail::message>
-# Hello, you have got an enquiry!
+@component('mail::message')
+# Contact Message
 
-<h3>Name:{{ $data['name']}}</h3>
-<h3>Email:{{ $data['email']}}</h3>
-<h3>Message:{{ $data['message']}}</h3>
+**Name:** {{ $data['name'] }}<br>
+**Email:** {{ $data['email'] }} <br>
+**Subject:** {{ $data['subject'] }}<br>
 
-<x-mail::button :url="''">
-Button Text
-</x-mail::button>
+**Message:**
+{{ $data['message'] }} <br>
 
-Thanks,<br>
+Thanks,
 {{ config('app.name') }}
-</x-mail::message>
+@endcomponent

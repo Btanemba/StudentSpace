@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\Welcome;
 use App\Mail\ContactUs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -23,10 +24,22 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        Mail::to('anembaben@gmail.com')->send(new ContactUs($data));
+        try {
+            // Attempt to send the email
+            Mail::to('anembaben@gmail.com')->send(new ContactUs($data));
+             Mail::to('lifeofrence@gmail.com')->send(new ContactUs($data));
 
+            // Redirect back with success message if email sent successfully
+            return redirect()->back()->with('success', 'Message Sent Successfully');
+        } catch (\Exception $e) {
+            // Log the exception message if needed
+            \Log::error('Mail send failed: ' . $e->getMessage());
 
-     //redirect back to the contact page
-     return redirect()->back()->with('success','Message Sent Successfully');
+            // Redirect back with error message
+            return redirect()->back()->with('error', 'Sorry ' . $data['name'] . ', it seems that our mail server is not responding. Please try again later!');
+        }
     }
+
+
+
 }
